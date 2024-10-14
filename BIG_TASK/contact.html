@@ -9,17 +9,14 @@
 
 <body>
     <!-- bootstrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--JS cdn  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"crossorigin="anonymous"></script>
     <!-- fontawesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+    <!-- syle section start  -->
     <style>
         body {
             height: 100vh;
@@ -30,23 +27,15 @@
             background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-
         }
 
-        .txt-gradient {
-            background-color: #4158D0;
-            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-        }
-
-
-        .card-body {
-            height: 420px;
-            width: 350px;
-            margin-top: 20px;
+        .color {
             background-color: #4158D0;
             background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
         }
     </style>
+
+    <!-- style section ends  -->
 
     <!-- nav section  -->
 
@@ -81,49 +70,42 @@
     <!-- nav section end -->
 
 
-    <!-- Text section start -->
-     
-    <div class="text text-center   ">
-        <div class=" mt-5 badge txt-gradient text-wrap " style="min-width:10px ;">
-            DESIGN.DEVELOPING.MARKETING
+    <div class="container shadow border-3 rounded-4 mb-4 ">
+        <div class="card-body p-5 mt-5 mb-5">
+            <div class="text-center  mb-4 mb-lg-0">
+                <h1>Get in touch</h1>
+                <p>Let's work together</p>
+            </div>
+
+            <div class="form-group mt-2 p-2">
+                <input type="text" class="form-control" id="fname" placeholder="Full name" >
+            </div>
+
+            <div class="form-group mt-2 p-2 ">
+                <input type="email" class="form-control" id="mail" placeholder="Email address">
+            </div>
+
+            <div class="form-group mt-2 p-2 ">
+                <input type="text" class="form-control" id="num" placeholder="Phone number">
+            </div>
+
+            <div class="form-group mt-2 p-2 ">
+                <textarea type="text" class="form-control" id="num" placeholder="Phone number"
+                    style="height: 200px;"></textarea>
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto mt-5">
+                <button class="btn btn-primary" type="button">Submit</button>
+            </div>
         </div>
-    
-
-        <p class="text-center fs-3 mt-3 ">I can help your business to</p>
-
-        <p class="text-center fs-1 fw-bold text-gradient ">Get online and grow fast</p>
     </div>
-    <!-- text section end  -->
-
-
-    <!-- button section start  -->
-    <div class="text-center ">
-        <a href="./resume.html"><button type="button" class="btn btn-primary">Resume</button></a>
-        <a href="./projects.html"><button type="button" class="btn btn-outline-dark ">Projects</button></a>
-    </div>
-    <!-- button section end  -->
-
-
-    <!-- image section start  -->
-
-    <div class="text-center">
-        <div class="image">
-            <img src="./image/profile.png" class="card-body " alt="...">
-        </div>
-    </div>
-    </div>
-    <!-- image section end  -->
-
 
     <!-- footer section start  -->
-    <footer class=" text-center bg-secondary-subtle p-5 mt-5">
-        <h1 class="text-white fw-bold text-gradient">About me</h1>
-        <p>My name is StartBootstrap and i help brands grow</p>
+    <footer class="text-center bg-secondary-subtle p-5 mt-5">
+        <p>copyright Your Website2023</p>
     </footer>
     <!-- footer section end  -->
 
-
-    </div>
 </body>
 
 </html>
